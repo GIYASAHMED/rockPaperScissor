@@ -1,0 +1,39 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    max-width: 700px;
+    padding: 40px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    margin-top: 40px;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+button{
+    width: 100px;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+.buttons:nth-child(1){
+    background-color: pink;
+}
